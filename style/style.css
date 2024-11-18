@@ -168,6 +168,10 @@ p {
   margin: auto;
   width: 86%;
   margin-top: 42px;
+
+  p {
+    text-align: justify;
+  }
 }
 .package-header {
   text-align: center;
@@ -183,6 +187,10 @@ p {
 .package-destination {
   display: flex;
   margin-top: 100px;
+}
+
+.cuisine-info {
+  margin-right: 100px;
 }
 
 .package-info {
@@ -222,6 +230,7 @@ textarea {
   border: none;
   border-radius: 15px;
   background: #f8f8f8;
+  padding: 15px;
   font-size: 20px;
   margin: 35px 0;
 }
