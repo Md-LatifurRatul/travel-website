@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+/* Heading Start */
+
+.main-header {
+  background: url("/images/travels.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.main-section {
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  .logo {
+    font-family: "Kalam", cursive;
+    font-size: 30px;
+    flex: 2 1 40px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 60px;
+  min-height: 10vh;
+  align-items: center;
+  background: rgb(19, 53, 55);
+  ul {
+    display: flex;
+    flex: 1.2 1 30px;
+    justify-content: space-around;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  cursor: default;
+
+  &:hover {
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
+    transition: 0.3s ease-in;
+  }
+}
+
+.section-row {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+h2 {
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+button:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+button {
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 50px;
+  margin-top: 30px;
+  background: #7cc2c1;
+  color: white;
+  transition: 0.5s;
+}
+
+/* Heading End */
+
+/* Main Section Start */
+
+.travel-about {
+  display: flex;
+  margin: auto;
+  min-height: 100vh;
+  width: 90%;
+  margin-top: 132px;
+
+  .info-text {
+    width: 50%;
+    padding: 25px;
+    h3 {
+      color: #7fc2c2;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    p {
+      margin: 40px 0;
+    }
+    .read-btn {
+      font-size: 30px;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 50px;
+      margin-top: 30px;
+      background: #7cc2c1;
+      color: white;
+    }
+  }
+}
+
+.info-image {
+  width: 50%;
+  position: relative;
+  margin-left: 25px;
+  .travels-1 {
+    width: 362px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    padding: 10px;
+    height: 470px;
+  }
+  .travels-2 {
+    width: 362px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    padding: 10px;
+    height: 470px;
+    position: absolute;
+    top: 150px;
+    padding-left: 15px;
+  }
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.packages-section {
+  min-height: 98vh;
+  margin: auto;
+  width: 86%;
+  margin-top: 42px;
+}
+.package-header {
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+    color: #7fc2c2;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+}
+
+.package-destination {
+  display: flex;
+  margin-top: 100px;
+}
+
+.package-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.package-image {
+  width: 50%;
+  img {
+    width: 682px;
+    height: 342px;
+    border-radius: 15px;
+  }
+}
+
+.travel-contact {
+  width: 90%;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 150px;
+}
+
+form {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  width: 650px;
+  height: 116px;
+  border: none;
+  border-radius: 15px;
+  background: #f8f8f8;
+  font-size: 20px;
+  margin: 35px 0;
+}
+
+/* Main Section End */
+
+/* Footer Start */
+
+.travel-footer {
+  margin: auto;
+  margin-top: 60px;
+  background: rgb(19, 53, 55);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 135px;
+}
+
+.travel-brand {
+  margin-top: 40px;
+}
+
+.travel-footer-nav {
+  ul {
+    padding: 0;
+  }
+}
+
+.travel-social {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+}
+
+/* Footer End */
